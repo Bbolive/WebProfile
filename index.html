@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Projects</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #354db5;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px 30px;
+      background: #4e54c8;
+      color: #fff;
+      width: 100%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 500px;
+      margin: 40px 0;
+      gap: 20px;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: #fff;
+      width: 100%;
+      padding: 30px 20px;
+      border-radius: 15px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 25px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      text-decoration: none;
+      color: #fff;
+      background: #4e54c8;
+      border-radius: 30px;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    .card a:hover {
+      background: #6c63ff;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Web Profile</h1>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <h2>Webprofile01</h2>
+      <a href="./webprofile01/index.html">View Project</a>
+    </div>
+    <div class="card">
+      <h2>Webprofile02</h2>
+      <a href="./webprofile02/index.html">View Project</a>
+    </div>
+    <div class="card">
+      <h2>Webprofile03</h2>
+      <a href="./webprofile03/index.html">View Project</a>
+    </div>
+    <div class="card">
+      <h2>Webprofile04</h2>
+      <a href="./webprofile04/index.html">View Project</a>
+    </div>
+    <div class="card">
+      <h2>Webprofile05</h2>
+      <a href="./webprofile05/index.html">View Project</a>
+    </div>
+  </main>
+</body>
+</html>
